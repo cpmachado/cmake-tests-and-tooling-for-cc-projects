@@ -1,6 +1,6 @@
 # cmake-tests-and-tooling-for-cc-projects
 
-My code through "CMake, Tests and Tooling for C/C++ Projects [2024 Edition]".
+My code through "CMake, Tests and Tooling for C/C++ Projects [2024 Edition]" by Jan Schaffranek.
 
 
 ## References
