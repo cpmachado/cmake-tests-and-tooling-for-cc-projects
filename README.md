@@ -2,6 +2,8 @@
 
 My code through "CMake, Tests and Tooling for C/C++ Projects [2024 Edition]" by Jan Schaffranek.
 
+Core differences:
+- Repository structure and conventions
 
 ## References
 
