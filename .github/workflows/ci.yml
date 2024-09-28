@@ -1,0 +1,19 @@
+name: Test build in all files
+
+on:
+  push:
+    branches:
+      - master
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install tools
+        run: sudo apt-get install build-essential cmake
+      - name: Build all
+        run: make all
+      - name: Test
+        run: make test
