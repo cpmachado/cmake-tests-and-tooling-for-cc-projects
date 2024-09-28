@@ -1,4 +1,4 @@
-name: Test build in all files
+name: Build
 
 on:
   push:
